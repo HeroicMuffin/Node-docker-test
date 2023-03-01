@@ -2,3 +2,5 @@ node_modules
 .dockerignore
 .git
 .gitignore
+docker-compose.dev.yaml
+docker-compose.prod.yaml
