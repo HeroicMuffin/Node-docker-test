@@ -5,8 +5,9 @@ services:
       context: .
     ports:
       - "4000:3333"
-    volumes:
-      - ./:/app
-      - /app/node_modules
-    env_file:
-      - .env
+
+  mongo-service:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=peleg
+      - MONGO_INITDB_ROOT_PASSWORD=1234
