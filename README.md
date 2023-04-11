@@ -1,3 +1,3 @@
 read this
 
-testing docker
+testing docker, docker-compose
